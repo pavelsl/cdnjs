@@ -23,5 +23,14 @@
     "jquery",
     "scroll",
     "jscrollpane"
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/vitch/jScrollPane.git",
+    "basePath": "",
+    "files": [
+        "script/jquery.jscrollpane.min.js",
+        "styles/jquery.jscrollpane.min.css"
+    ]
+  }
 }
